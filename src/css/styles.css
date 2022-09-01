@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body, h1, h2, h3, h4, h5, h6, ul, li, form, div, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #f7f8fa;
+}
+  a:hover {
+    color: #fff;
+  }
+
+/* .switcher */
+.switcher {
+  height: 46px;
+  padding-top: 14px;
+  z-index: 999999;
+  position: fixed;
+  width: 100%;
+  background: #000;
+}
+
+.theme_select,
+.center ul li ul li a {
+  background: #222;
+  width: 200px;
+  display: block;
+  padding: 10px 20px;
+}
+
+.theme_select:before {
+  font-family: FontAwesome;
+  content:"\f107";
+  font-size: 1.4em;  
+  margin-right: 10px;
+  float: left;
+}
+
+.theme_dropdown_list {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 20px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.center {
+  margin: auto;
+  width: 90%;
+}
+
+.center ul {
+  float: left;
+}
+
+.center ul.urls {
+  float: right;
+}
+
+  .center ul.urls a {
+    line-height: 34px;
+    padding: 10px 20px;
+  }
+
+  .center ul.urls .purchase a {
+    background: #88cb72;
+    border-top: 3px solid #88cb72;
+    border-bottom: 3px solid #70aa5d;
+    padding: 7px 20px;
+
+    -webkit-transition: all 0.075s ease-in-out;
+    -moz-transition: all 0.075s ease-in-out;
+    -o-transition: all 0.075s ease-in-out;
+    transition: all 0.075s ease-in-out;
+  }
+
+  .center ul.urls .purchase a:hover {
+    color: #000;
+  }
+
+.center ul li {
+  float: left;
+  position: relative;
+}
+
+.center ul li ul {
+  display: none;
+  position: absolute;
+  width: 240px;
+}
+
+.center ul li ul li a {
+  border-top: 1px solid #2a2a2a;
+  padding-left: 40px;
+  width: 180px;
+}
+  .center ul li ul li a:hover {
+    background: #2a2a2a;;
+  }
+
+.resize {
+  margin-left: 10px;
+  line-height: 32px;
+}
+/* .switcher ends! */
+
+.iframe {
+  margin-top: 60px;
+}
+
+a[title="Free Web Hosting with PHP5 or PHP7"], img[alt="Free Web Hosting"] { 
+  display: none;
+}

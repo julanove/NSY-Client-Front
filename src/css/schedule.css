@@ -1,0 +1,53 @@
+/*table {
+ font-family: arial, sans-serif;
+ border-collapse: collapse;
+ width: 100%;
+}
+td,
+th {
+ border: 1px solid #dddddd;
+ text-align: left;
+ padding: 8px;
+}
+th {
+ background-color: #ccd;
+}
+tr:nth-child(even) {
+ background-color: #dddddd;
+}
+tr:nth-child(odd) {
+ background-color: #ddeedd;
+}
+.highlight {
+ background-color: Yellow;
+ color: Green;
+}
+
+/*Table css Jula*/
+
+
+.jcolumn1 {
+    width: 5%;
+    padding-left: 40px;
+}
+
+.jcolumn2 {
+    width: 13%;
+  }
+  
+.jcolumn3 {
+    width: 22%;
+    padding-right: 26px;
+}
+
+.jflag{
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .jcolumn1 {
+        padding-left: 10px;
+    }
+}

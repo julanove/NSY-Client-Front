@@ -1,0 +1,213 @@
+@media screen and (max-width: 3024px) {
+    #header .header-content {
+        width: 90%;
+        /*padding: 40px 0;*/
+    }
+    #header.fixed a {
+        /*color: #353535;*/
+    }
+    .nav-toggle {
+        display: block;
+    }
+    .navigation {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+        transition: opacity 0.5s, visibility 0s 0.5s;
+    }
+    .navigation .primary-nav {
+        /* position: relative;
+        top: 45%;
+        -moz-transform: translateY(-45%);
+        -ms-transform: translateY(-45%);
+        -webkit-transform: translateY(-45%);
+        transform: translateY(-45%); */
+    }
+    .navigation li {
+     display: block;
+     margin-bottom: 1px;
+    }
+    .navigation a {
+        display: block;
+        margin: 0;
+        text-align: center;
+        line-height: 1em;
+        color: #FCB330;
+        font-family: 'Noto Serif', serif;
+        font-weight: 300;
+        font-size: 2em;
+    }
+    .person {
+        margin: 0 auto 50px;
+    }
+    .person-content {
+        text-align: center;
+    }
+    .person .social-icons li {
+        display: inline-block;
+        float: none;
+        margin-bottom: 5px;
+    }
+    .testimonials blockquote {
+        padding: 20px 5% 0;
+    }
+    .testimonials p {
+        font-size: 12px;
+    }
+    .flex-control-nav {
+        bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #header.fixed a {
+        /*color: #fff;*/
+    }
+    #header.fixed a.logo {
+        color: #000;
+    }
+    #header .logo {
+        background-size: auto 100% !important;
+    }
+    .banner-text {
+        margin-top: 30%;
+    }
+    .banner-text h1 {
+        font-size: 42px;
+    }
+    .banner-text p {
+        font-size: 29px;
+    }
+    .flexslider {
+        /*padding-bottom: 80px;*/
+    }
+    .flex-control-nav {
+        width: 100%;
+    }
+    .footer .footer-col {
+        margin-bottom: 50px;
+    }
+    .nav-facebook {
+        right: 2%;
+    }
+    .conForm .common_btn {
+        width: 60%;
+    }
+    .video-package {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+        /*grid-template-rows: 150px;*/
+    }
+    .video-container {
+        height: 100px;
+        overflow: hidden;
+    }
+    .table100.ver1 th {
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 640px) {
+    .drg-bg {
+        background-size: 80%;
+    }
+    .banner-text {
+        margin-top: 120%;
+    }
+    .testimonials p {
+        font-size: 12px;
+    }
+    .nav-facebook {
+        right: 2%;
+    }
+    .conForm .common_btn {
+        width: 80%;
+    }
+    .gallery-container {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .video-package {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        /*grid-template-rows: 150px;*/
+    }
+    .video-container {
+        height: 160px;
+        overflow: hidden;
+    }
+    .tablink {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner-text {
+        padding-top: 12%;
+    }
+    .banner-text h1 {
+        font-size: 32px;
+    }
+    .testimonials p {
+        font-size: 12px;
+    }
+
+    .nav-facebook {
+        right: 2%;
+    }
+    .conForm .common_btn {
+        width: 100%;
+    }
+    #header .logo {
+        background-size: 100% auto !important;
+        width: 15%;
+    }
+    .page-title h3 {
+        font-size: 18px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .pb70 {
+        padding: 60px 0px 100px 0px;
+    }
+    .res-0 {
+        padding-top: 0px !important;
+    }
+    .julaimage {
+        width: 55%;
+        margin-top: 0;
+    }
+    .table100.ver1 th {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .banner-text {
+        padding-top: 55%;
+    }
+    .testimonials blockquote {
+        padding: 20px 5% 0;
+    }
+    .testimonials p {
+        font-size: 12px;
+    }
+    .conForm .common_btn {
+        width: 100%;
+    }
+}
+
+.nav-facebook {
+    right: 2%;
+}

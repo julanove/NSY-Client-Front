@@ -1,0 +1,102 @@
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+.gallery-container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(270px, 1fr));
+}
+.gallery-container>div {
+    overflow: hidden;
+    max-height: 400px;
+}
+.video-album-title {
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.video-package {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /*grid-template-rows: 150px;*/
+}
+.video-container {
+    height: 150px;
+    overflow: hidden;
+}
+.video-package img {
+    width: 100%;
+}
+.video-title {
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+}
+.video-hr {
+    border: 0.5px solid #37343b;
+}
+@media screen and (max-width: 768px) {
+    .video-package {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+        /*grid-template-rows: 150px;*/
+    }
+    .video-container {
+        height: 100px;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 640px) {
+    .gallery-container {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .video-package {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        /*grid-template-rows: 150px;*/
+    }
+    .video-container {
+        height: 160px;
+        overflow: hidden;
+    }
+    .tablink {
+        width: 30%;
+    }
+}
+button {
+    position: relative;
+    overflow: hidden;
+}
+button hr {
+    position: absolute;
+    left: -60%;
+    width: 100%;
+    margin: 0;
+    /* webkit-animation: slide 0.6s forwards; */
+    -webkit-animation-delay: 0s;
+    animation: slide 0.6s forwards;
+    animation-delay: 0s;
+}
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
