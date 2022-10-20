@@ -33,11 +33,11 @@
     "uuid": "^8.3.2"
   },
   "scripts": {
-    "start": "./generate-environment.ts.sh test && react-scripts start",
+    "start": "export PORT=8083 && ./generate-environment.ts.sh test && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && aws s3 sync build/ s3://nsy-website-front --acl public-read --delete &&  ./invalidate-cf-cache.sh E1Q9TEHG0R76OQ"
+    "deploy": "npm run build && aws s3 sync build/ s3://nsy-website-front && ./cf.sh E4G42O2541X45"
   },
   "eslintConfig": {
     "extends": [

@@ -23,7 +23,7 @@ class Dragon extends React.Component {
                             <h3 className="txt-upper">NÚI TRÚC SAKURA YOSAKOI</h3>
                 </div>
                 <div className="drg-bg"></div>
-                <div className="nav-title"> 2019 © NÚI TRÚC SAKURA YOSAKOI </div>
+                <div className="nav-title"> 2022 © NÚI TRÚC SAKURA YOSAKOI </div>
             </Fragment>
         )
     }
