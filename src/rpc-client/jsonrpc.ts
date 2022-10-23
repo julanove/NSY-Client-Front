@@ -67,7 +67,7 @@ export class JSORPCV2BatchRequest {
     json.forEach((j: any) => {
       try {
         items.push(JSORPCV2Request.validate(j));
-      } catch (error) {
+      } catch (error:any) {
         errorItems.push(new JSORPCV2Response(j.id, null, error));
       }
     });

@@ -6,12 +6,10 @@ phases:
       nodejs: 14
     commands:
       - npm install 
-      - npm install typescript@4.2.4 -g
   build:
     commands: 
       - node -v
       - npm -v
-      - tsc -v
       - npm run deploy
 artifacts:
   files:  
