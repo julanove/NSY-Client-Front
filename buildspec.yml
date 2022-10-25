@@ -6,7 +6,7 @@ phases:
       nodejs: 14
     commands:
       - npm install 
-  pre-build:
+  pre_build:
     commands:
       - chmod +x cf.sh
   build:
