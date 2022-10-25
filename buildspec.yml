@@ -1,14 +1,14 @@
 version: 0.2
 
 phases:
-  before_install:
-    commands: 
-      - chmod +x cf.sh
   install:
     runtime-versions:
       nodejs: 14
     commands:
       - npm install 
+  pre-build:
+    commands:
+      - chmod +x cf.sh
   build:
     commands: 
       - node -v
