@@ -34,7 +34,7 @@ const Viewer = ({match}) => (
                 <Switch>
                     <Route exact path={`${match.path}/home`} component={Login} />
                     <Route exact path='/about-us' component={AboutTeam} />
-                    <Route exact path='/news-for' component={News} />
+                    <Route exact path='/news' component={News} />
                     <Route exact path='/ask' component={Ask} /> 
                     <Route exact path='/schedule' component={Schedule} /> 
                     <Route exact path='/gallery' component={Gallery} />

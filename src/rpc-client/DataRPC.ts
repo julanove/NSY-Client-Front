@@ -45,8 +45,6 @@ export class DataRPC {
     async fetchRawData(method:string): Promise<[]> {
     
       const jrpcBody = new JSONRPC.JSORPCV2Request(1, "GetRPC." + method);
-      console.log('-------------------------');
-      console.log(jrpcBody);
     
       return new Promise<[]>((resolve, reject) => {
   
